@@ -198,7 +198,7 @@ const Card = ({
                 {product.name}
               </Typography>
               <Typography className={classes.productDescription}>{product.description.substring(0, 100)}</Typography>
-              <p className='black-10'>Price: ${product.price}</p>
+              <p className='black-10'>Price: ₹{product.price}</p>
               <p className='black-9'>
                 Category: {product.category && product.category.name}{' '}
               </p>{' '}
